@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraSys Library Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="icon"  type="image/png" href="Logo_of_Prithivi_Narayan_Campus.png" >
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo_of_Prithivi_Narayan_Campus.png" alt="PNC LOGO">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="student-registration.html">Student Registration</a>
+            <a href="admin-dashboard.html">Admin Dashboard</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome to PNC Library Management</h1>
+            <p>PNC Library is your digital gateway to a vast collection of books and resources. Our library offers a wide variety of books, journals, and digital media to cater to your academic and recreational needs.</p>
+        </section>
+
+        <section class="browse-books">
+            <h2>Browse Books</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="hi.webp" alt="Hide and seek">
+                    <h3>Hide And Seek</h3>
+                    <p>By Olivia Wilson</p>
+                </div>
+                <div class="book-card">
+                    <img src="wa.webp" alt="">
+                    <h3>Walk Into The Shadow</h3>
+                    <p>By Estelle Darcy</p>
+                </div>
+                <div class="book-card">
+                    <img src="dont.png" alt="Dont look back">
+                    <h3>Don't Look Back</h3>
+                    <p>By Isaac Newton</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="actions">
+            <div class="register">
+                <h2>Register as a Student</h2>
+                <p>Join our library and get access to thousands of books and exclusive resources. Click the button below to register.</p>
+                <button class="btn" onclick="studentLogin()">Register</button>
+            </div>
+            <div class="admin-login">
+                <h2>Admin Login</h2>
+                <p>Library administrators can log in to manage library resources and user accounts. Click the button below to log in.</p>
+                <button class="btn" onclick="adminLogin()">Login</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 lms. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
